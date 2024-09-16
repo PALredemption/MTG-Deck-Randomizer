@@ -1,0 +1,12 @@
+App(
+    appid="mtg_deck_randomizer",
+    name="MTG Deck Randomizer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mtg_deck_randomizer_app",
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_icon="mtg_deck_randomizer.png",
+    fap_author="BabaYaga",
+    fap_version="1.0",
+    fap_description="Randomize your Magic: The Gathering decks",
+)
